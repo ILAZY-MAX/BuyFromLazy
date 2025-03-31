@@ -16,7 +16,7 @@
         }
         
         header { 
-            background: linear-gradient(90deg, rgba(255, 0, 0, 0.7), rgba(255, 115, 0, 0.7), rgba(255, 250, 0, 0.7), rgba(72, 255, 0, 0.7), rgba(0, 255, 255, 0.7), rgba(0, 0, 255, 0.7), rgba(255, 0, 255, 0.7));
+            background: linear-gradient(90deg, #ff0000, #ff8c00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
             padding: 20px; 
             font-size: 24px; 
             font-family: 'Samsung Sans', sans-serif;
@@ -100,7 +100,7 @@
     </div>
     
     <footer>
-        Contact us at: FuckyouFuckyou.com | Phone: Your moms | Gmail: FuckYouNigga@gmail.com
+        Contact us at: example@example.com | Phone: +123 456 7890
     </footer>
     
     <script>
