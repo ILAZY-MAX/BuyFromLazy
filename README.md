@@ -16,7 +16,7 @@
         }
         
         header { 
-            background: linear-gradient(90deg, #ff0000, #ff7300, #fffa00, #48ff00, #00ffff, #0000ff, #ff00ff);
+            background: linear-gradient(90deg, rgba(255, 0, 0, 0.7), rgba(255, 115, 0, 0.7), rgba(255, 250, 0, 0.7), rgba(72, 255, 0, 0.7), rgba(0, 255, 255, 0.7), rgba(0, 0, 255, 0.7), rgba(255, 0, 255, 0.7));
             padding: 20px; 
             font-size: 24px; 
             font-family: 'Samsung Sans', sans-serif;
@@ -24,6 +24,9 @@
             font-weight: bold;
             text-shadow: 0 0 5px #fff, 0 0 10px #ff0000, 0 0 15px #00ff00, 0 0 20px #0000ff;
             color: white; 
+            display: inline-block;
+            border-radius: 10px;
+            padding: 15px 30px;
         }
         
         nav { background: #23272b; padding: 10px; }
@@ -97,7 +100,7 @@
     </div>
     
     <footer>
-        Contact us at: example@example.com | Phone: +123 456 7890
+        Contact us at: FuckyouFuckyou.com | Phone: Your moms | Gmail: FuckYouNigga@gmail.com
     </footer>
     
     <script>
