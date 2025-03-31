@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,14 +17,14 @@
         }
         
         header { 
-            background: linear-gradient(90deg, #ff0000, #ff8c00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+            background: linear-gradient(90deg, #ff4500, #ffae00, #ffd700, #32cd32, #1e90ff, #9400d3);
             padding: 20px; 
             font-size: 24px; 
             font-family: 'Samsung Sans', sans-serif;
             text-transform: uppercase;
             font-weight: bold;
-            text-shadow: 0 0 5px #fff, 0 0 10px #ff0000, 0 0 15px #00ff00, 0 0 20px #0000ff;
-            color: black; 
+            text-shadow: 0 0 5px #fff;
+            color: white; 
             display: inline-block;
             border-radius: 10px;
             padding: 15px 30px;
@@ -33,7 +34,7 @@
         nav a { color: white; text-decoration: none; margin: 15px; font-size: 18px; }
         .container { display: flex; justify-content: center; flex-wrap: wrap; padding: 20px; }
         .category, .product { 
-            background: black; 
+            background: white; 
             border-radius: 10px; 
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px; 
@@ -98,6 +99,12 @@
             <p>Price: $150</p>
         </div>
     </div>
+
+    <div class="container" id="product-details" style="display: none;">
+        <h2 id="product-title">Product Details</h2>
+        <p id="product-description">Description will appear here.</p>
+        <button onclick="goBack()">Back</button>
+    </div>
     
     <footer>
         Contact us at: example@example.com | Phone: +123 456 7890
@@ -119,7 +126,15 @@
         }
 
         function showProductDetails(product) {
-            alert("Showing details for " + product);
+            document.getElementById('product-list').style.display = 'none';
+            document.getElementById('product-details').style.display = 'block';
+            document.getElementById('product-title').innerText = product;
+            document.getElementById('product-description').innerText = "Detailed specifications for " + product;
+        }
+
+        function goBack() {
+            document.getElementById('product-details').style.display = 'none';
+            document.getElementById('product-list').style.display = 'flex';
         }
     </script>
 </body>
