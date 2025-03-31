@@ -59,7 +59,7 @@
             <p>High-performance gaming and work PCs.</p>
         </div>
         <div class="category" onclick="showCategory('PC Parts')">
-            <img src="https://th.bing.com/th/id/OIP.-sxG9Kbg8hfPosvtoyouNwHaE8?w=3240&h=2160&rs=1&pid=ImgDetMain" alt="PC Parts">
+            <img src="https://cdn.wccftech.com/wp-content/uploads/2018/09/DSC_0098-Custom.jpg" alt="PC Parts">
             <h2>PC Parts</h2>
             <p>Customize your build with high-quality components.</p>
         </div>
