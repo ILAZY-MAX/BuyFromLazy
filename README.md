@@ -94,7 +94,7 @@
     </div>
     
     <footer>
-        Contact us at: example@example.com | Phone: +123 456 7890
+        Contact us at:fuckyoufuckyou.com | Phone: +Put Your mums Phone number
     </footer>
     
     <script>
