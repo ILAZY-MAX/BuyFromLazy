@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,7 +35,7 @@
     </style>
 </head>
 <body>
-    <header>Welcome to Simple Shop</header>
+    <header>NO COMPROMISE WITH PERFORMANCE</header>
     <nav>
         <a href="#">Home</a>
         <a href="#">Categories</a>
