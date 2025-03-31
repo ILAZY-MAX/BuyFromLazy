@@ -49,7 +49,7 @@
             <p>High-performance gaming and work PCs.</p>
         </div>
         <div class="category" onclick="showCategory('PC Parts')">
-            <img src="https://github.com/user-attachments/assets/0a8fe72b-2b2e-4da0-880c-0de192420647" alt="PC Parts">
+            <img src="https://th.bing.com/th/id/OIP.-sxG9Kbg8hfPosvtoyouNwHaE8?w=3240&h=2160&rs=1&pid=ImgDetMain" alt="PC Parts">
             <h2>PC Parts</h2>
             <p>Customize your build with high-quality components.</p>
         </div>
