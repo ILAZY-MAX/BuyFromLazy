@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,7 +17,7 @@
         }
         
         header { 
-            background: radial-gradient(circle, rgba(255,0,0,0.6) 10%, rgba(0,0,0,1) 50%, rgba(0,0,255,0.6) 90%);
+            background: radial-gradient(circle at center, rgba(255, 0, 0, 0.7) 10%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 255, 0.7) 90%);
             padding: 20px; 
             font-size: 30px; 
             font-weight: bold;
