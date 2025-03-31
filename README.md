@@ -45,7 +45,7 @@
     
     <div class="container" id="landing-page">
         <div class="category" onclick="showCategory('Prebuilt PCs')">
-            <img src="https://via.placeholder.com/250" alt="Prebuilt PCs">
+            <img src="https://th.bing.com/th/id/OIP.fkOKg96G5_2vp4F1ACs6gQHaHa?rs=1&pid=ImgDetMain" alt="Prebuilt PCs">
             <h2>Prebuilt PCs</h2>
             <p>High-performance gaming and work PCs.</p>
         </div>
