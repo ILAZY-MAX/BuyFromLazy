@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif; 
             margin: 0; 
             padding: 0; 
-            background: url('https://www.getsims.com/wp-content/uploads/2020/12/gradient-background-02.jpg') no-repeat center center fixed; 
+            background: url('https://wallpaperaccess.com/full/2645955.jpg') no-repeat center center fixed; 
             background-size: cover; 
             text-align: center; 
         }
