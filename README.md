@@ -23,7 +23,7 @@
             text-transform: uppercase;
             font-weight: bold;
             text-shadow: 0 0 5px #fff, 0 0 10px #ff0000, 0 0 15px #00ff00, 0 0 20px #0000ff;
-            color: white; 
+            color: black; 
             display: inline-block;
             border-radius: 10px;
             padding: 15px 30px;
@@ -33,7 +33,7 @@
         nav a { color: white; text-decoration: none; margin: 15px; font-size: 18px; }
         .container { display: flex; justify-content: center; flex-wrap: wrap; padding: 20px; }
         .category, .product { 
-            background: white; 
+            background: black; 
             border-radius: 10px; 
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px; 
