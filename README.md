@@ -12,7 +12,17 @@
             background-size: cover; 
             text-align: center; 
         }
-        header { background-color: #343a40; color: white; padding: 20px; font-size: 24px; }
+        header { 
+            background-color: #000; 
+            color: #0ff; 
+            padding: 20px; 
+            font-size: 32px; 
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+            border-bottom: 3px solid #0ff;
+        }
         nav { background: #23272b; padding: 10px; }
         nav a { color: white; text-decoration: none; margin: 15px; font-size: 18px; }
         .container { display: flex; justify-content: center; flex-wrap: wrap; padding: 20px; }
@@ -49,7 +59,7 @@
             <p>High-performance gaming and work PCs.</p>
         </div>
         <div class="category" onclick="showCategory('PC Parts')">
-            <img src="C:\Users\LAZY_MAX\Downloads\OIP-removebg-preview.png" alt="PC Parts">
+            <img src="https://th.bing.com/th/id/OIP.-sxG9Kbg8hfPosvtoyouNwHaE8?w=3240&h=2160&rs=1&pid=ImgDetMain" alt="PC Parts">
             <h2>PC Parts</h2>
             <p>Customize your build with high-quality components.</p>
         </div>
