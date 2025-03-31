@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Shop</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Samsung+Sans:wght@400;700&display=swap');
+        
         body { 
             font-family: Arial, sans-serif; 
             margin: 0; 
@@ -12,17 +14,18 @@
             background-size: cover; 
             text-align: center; 
         }
+        
         header { 
-            background-color: #000; 
-            color: #0ff; 
+            background: linear-gradient(90deg, #ff0000, #ff7300, #fffa00, #48ff00, #00ffff, #0000ff, #ff00ff);
             padding: 20px; 
-            font-size: 32px; 
-            font-weight: bold;
+            font-size: 24px; 
+            font-family: 'Samsung Sans', sans-serif;
             text-transform: uppercase;
-            letter-spacing: 3px;
-            text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
-            border-bottom: 3px solid #0ff;
+            font-weight: bold;
+            text-shadow: 0 0 5px #fff, 0 0 10px #ff0000, 0 0 15px #00ff00, 0 0 20px #0000ff;
+            color: white; 
         }
+        
         nav { background: #23272b; padding: 10px; }
         nav a { color: white; text-decoration: none; margin: 15px; font-size: 18px; }
         .container { display: flex; justify-content: center; flex-wrap: wrap; padding: 20px; }
@@ -59,7 +62,7 @@
             <p>High-performance gaming and work PCs.</p>
         </div>
         <div class="category" onclick="showCategory('PC Parts')">
-            <img src="https://cdn.wccftech.com/wp-content/uploads/2018/09/DSC_0098-Custom.jpg" alt="PC Parts">
+            <img src="C:/Users/LAZY_MAX/Downloads/OIP-removebg-preview.png" alt="PC Parts">
             <h2>PC Parts</h2>
             <p>Customize your build with high-quality components.</p>
         </div>
@@ -94,7 +97,7 @@
     </div>
     
     <footer>
-        Contact us at:fuckyoufuckyou.com | Phone: +Put Your mums Phone number
+        Contact us at: example@example.com | Phone: +123 456 7890
     </footer>
     
     <script>
