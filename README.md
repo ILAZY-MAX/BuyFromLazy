@@ -1,37 +1,33 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Shop</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); /* Using Montserrat font */
+        @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
         
         body { 
-            font-family: 'Montserrat', sans-serif; 
+            font-family: 'Antonio', sans-serif; 
             margin: 0; 
             padding: 0; 
             background: url('https://wallpaperaccess.com/full/2645955.jpg') no-repeat center center fixed; 
             background-size: cover; 
             text-align: center; 
         }
-
+        
         header { 
-            background: #000;
-            background-image: radial-gradient(circle, rgba(255, 0, 0, 0.6), rgba(255, 255, 0, 0.6), rgba(0, 255, 0, 0.6), rgba(0, 0, 255, 0.6), rgba(75, 0, 130, 0.6));
+            background: radial-gradient(circle, rgba(255,0,0,0.6) 10%, rgba(0,0,0,1) 50%, rgba(0,0,255,0.6) 90%);
             padding: 20px; 
-            font-size: 24px; 
-            font-family: 'Montserrat', sans-serif;
-            text-transform: uppercase;
+            font-size: 30px; 
             font-weight: bold;
-            text-shadow: 0 0 5px #fff;
+            text-transform: uppercase;
+            text-shadow: 0 0 10px #fff;
             color: white; 
             display: inline-block;
             border-radius: 10px;
             padding: 15px 30px;
-            mix-blend-mode: screen;
         }
-
+        
         nav { background: #23272b; padding: 10px; }
         nav a { color: white; text-decoration: none; margin: 15px; font-size: 18px; }
         .container { display: flex; justify-content: center; flex-wrap: wrap; padding: 20px; }
@@ -60,7 +56,7 @@
         <a href="#">Categories</a>
         <a href="#">Contact</a>
     </nav>
-
+    
     <div class="container" id="landing-page">
         <div class="category" onclick="showCategory('Prebuilt PCs')">
             <img src="https://th.bing.com/th/id/OIP.fkOKg96G5_2vp4F1ACs6gQHaHa?rs=1&pid=ImgDetMain" alt="Prebuilt PCs">
@@ -102,10 +98,16 @@
         </div>
     </div>
 
+    <div class="container" id="product-details" style="display: none;">
+        <h2 id="product-title">Product Details</h2>
+        <p id="product-description">Description will appear here.</p>
+        <button onclick="goBack()">Back</button>
+    </div>
+    
     <footer>
         Contact us at: example@example.com | Phone: +123 456 7890
     </footer>
-
+    
     <script>
         function showCategory(category) {
             document.getElementById('landing-page').style.display = 'none';
@@ -123,7 +125,14 @@
 
         function showProductDetails(product) {
             document.getElementById('product-list').style.display = 'none';
-            alert("Showing details for " + product);
+            document.getElementById('product-details').style.display = 'block';
+            document.getElementById('product-title').innerText = product;
+            document.getElementById('product-description').innerText = "Detailed specifications for " + product;
+        }
+
+        function goBack() {
+            document.getElementById('product-details').style.display = 'none';
+            document.getElementById('product-list').style.display = 'flex';
         }
     </script>
 </body>
